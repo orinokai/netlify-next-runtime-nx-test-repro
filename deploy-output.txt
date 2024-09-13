@@ -1,0 +1,135 @@
+[96m[1m​[22m[39m
+[96m[1mNetlify Build                                                 [22m[39m
+[96m[1m────────────────────────────────────────────────────────────────[22m[39m
+[36m[1m​[22m[39m
+[36m[1m❯ Version[22m[39m
+  @netlify/build 29.53.0
+[36m[1m​[22m[39m
+[36m[1m❯ Flags[22m[39m
+  accountId: 5e21500276ee6f05945b848b
+  packagePath: apps/next-app
+[36m[1m​[22m[39m
+[36m[1m❯ Current directory[22m[39m
+  /private/var/folders/pt/dkr2r_1s40j_9hysfrd3ff0c0000gn/T/netlify-next-runtime-8dgzM6
+[36m[1m​[22m[39m
+[36m[1m❯ Config file[22m[39m
+  /private/var/folders/pt/dkr2r_1s40j_9hysfrd3ff0c0000gn/T/netlify-next-runtime-8dgzM6/apps/next-app/netlify.toml
+[36m[1m​[22m[39m
+[36m[1m❯ Context[22m[39m
+  production
+[36m[1m​[22m[39m
+[36m[1m❯ Using Next.js Runtime - v5.7.1[22m[39m
+[96m[1m​[22m[39m
+[96m[1mbuild.command from netlify.toml                               [22m[39m
+[96m[1m────────────────────────────────────────────────────────────────[22m[39m
+​
+[36m$ nx run next-app:build[39m
+
+> nx run next-app:build:production
+
+  [1m[38;2;173;127;168m▲ Next.js 14.2.11[39m[22m
+ [37m[1m [22m[39m Creating an optimized production build ...
+ [32m[1m✓[22m[39m Compiled successfully
+ [37m[1m [22m[39m Skipping linting
+ [37m[1m [22m[39m Checking validity of types ...
+ [37m[1m [22m[39m Collecting page data ...
+ [37m[1m [22m[39m Generating static pages (0/5) ...
+ [37m[1m [22m[39m Generating static pages (1/5) 
+ [37m[1m [22m[39m Generating static pages (2/5) 
+ [37m[1m [22m[39m Generating static pages (3/5) 
+ [32m[1m✓[22m[39m Generating static pages (5/5)
+ [37m[1m [22m[39m Finalizing page optimization ...
+ [37m[1m [22m[39m Collecting build traces ...
+[4mRoute (app)[24m                              [4mSize[24m     [4mFirst Load JS[24m
+┌ ○ /                                    204 B          [37m[1m87.3 kB[22m[39m
+├ ○ /_not-found                          875 B          [37m[1m87.9 kB[22m[39m
+├ ○ /api/hello                           0 B                [37m[1m0 B[22m[39m
+└ ƒ /api/static                          0 B                [37m[1m0 B[22m[39m
++ First Load JS shared by all            [37m[1m87.1 kB[22m[39m
+  ├ chunks/49-17b8e5f5bbe36928.js        31.6 kB
+  ├ chunks/75163b60-a956363478ca73ac.js  53.7 kB
+  └ other shared chunks (total)          1.86 kB
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+ 
+
+ >  NX   Successfully ran target build for project next-app
+
+
+​
+[90m(build.command completed in 19.6s)[39m
+[96m[1m​[22m[39m
+[96m[1mFunctions bundling                                            [22m[39m
+[96m[1m────────────────────────────────────────────────────────────────[22m[39m
+​
+The Netlify Functions setting targets a non-existing directory: netlify/functions
+​
+Packaging Functions from [36mapps/next-app/.netlify/functions-internal[39m directory:
+ - ___netlify-server-handler/___netlify-server-handler.mjs
+​
+​
+[90m(Functions bundling completed in 3.3s)[39m
+[32mDeploy path: [39m       /private/var/folders/pt/dkr2r_1s40j_9hysfrd3ff0c0000gn/T/netlify-next-runtime-8dgzM6/dist/apps/next-app/.next
+[32mFunctions path: [39m    /private/var/folders/pt/dkr2r_1s40j_9hysfrd3ff0c0000gn/T/netlify-next-runtime-8dgzM6/netlify/functions
+[32mConfiguration path: [39m/private/var/folders/pt/dkr2r_1s40j_9hysfrd3ff0c0000gn/T/netlify-next-runtime-8dgzM6/apps/next-app/netlify.toml
+Functions folder "/private/var/folders/pt/dkr2r_1s40j_9hysfrd3ff0c0000gn/T/netlify-next-runtime-8dgzM6/netlify/functions" specified but it doesn't exist! Will proceed without deploying functions
+Deploying to draft URL...
+- Uploading blobs to deploy store...
+
+[96m[1m​[22m[39m
+[96m[1mNetlify Build                                                 [22m[39m
+[96m[1m────────────────────────────────────────────────────────────────[22m[39m
+[36m[1m​[22m[39m
+[36m[1m❯ Version[22m[39m
+  @netlify/build 29.53.0
+[36m[1m​[22m[39m
+[36m[1m❯ Flags[22m[39m
+  build: true
+  deployId: 66e43b5e2937201aafdf1a5d
+  filter: apps/next-app
+  open: false
+  packagePath: apps/next-app
+  prod: false
+  prodIfUnlocked: false
+  site: ee859ce9-44a7-46be-830b-ead85e445e53
+  skipFunctionsCache: false
+[36m[1m​[22m[39m
+[36m[1m❯ Current directory[22m[39m
+  /private/var/folders/pt/dkr2r_1s40j_9hysfrd3ff0c0000gn/T/netlify-next-runtime-8dgzM6
+[36m[1m​[22m[39m
+[36m[1m❯ Config file[22m[39m
+  /private/var/folders/pt/dkr2r_1s40j_9hysfrd3ff0c0000gn/T/netlify-next-runtime-8dgzM6/apps/next-app/netlify.toml
+[36m[1m​[22m[39m
+[36m[1m❯ Context[22m[39m
+  dev
+[96m[1m​[22m[39m
+[96m[1mUploading blobs to deploy store                               [22m[39m
+[96m[1m────────────────────────────────────────────────────────────────[22m[39m
+​
+​
+[90m(Uploading blobs completed in 1.3s)[39m
+[32m✔[39m Finished uploading blobs to deploy store
+- Hashing files...
+- Looking for a functions cache...
+[32m✔[39m Deploying functions from cache (use --skip-functions-cache to override)
+[32m✔[39m Finished hashing 18 files, 1 functions and edge functions
+- CDN diffing files...
+[32m✔[39m CDN requesting 4 files and 1 functions
+- Uploading 5 files
+[32m✔[39m Finished uploading 5 assets
+- Waiting for deploy to go live...
+[32m✔[39m Deploy is live!
+[96m[1m​[22m[39m
+[96m[1mNetlify Build Complete                                        [22m[39m
+[96m[1m────────────────────────────────────────────────────────────────[22m[39m
+​
+[90m(Netlify Build completed in 1m 10.2s)[39m
+
+[32mBuild logs: [39m       https://app.netlify.com/sites/next-runtime-testing/deploys/66e43b5e2937201aafdf1a5d
+[32mFunction logs: [39m    https://app.netlify.com/sites/next-runtime-testing/logs/functions?scope=deploy:66e43b5e2937201aafdf1a5d
+[32mWebsite draft URL: [39mhttps://66e43b5e2937201aafdf1a5d--next-runtime-testing.netlify.app
+
+If everything looks good on your draft URL, deploy it to your main site URL with the --prod flag.
+[96m[1mnetlify deploy --build --prod[22m[39m
+

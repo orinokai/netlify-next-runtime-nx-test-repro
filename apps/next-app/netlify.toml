@@ -1,0 +1,9 @@
+[functions]
+directory = "netlify/functions"
+included_files = ["apps/next-app/static/**"]
+[build]
+command = "nx run next-app:build"
+publish = "dist/apps/next-app/.next"
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"
